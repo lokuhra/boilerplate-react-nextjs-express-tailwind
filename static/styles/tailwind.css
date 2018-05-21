@@ -12396,6 +12396,264 @@ button,
   transition-delay: 0s;
 }
 
+.cursor-none {
+  cursor: none;
+}
+
+.cursor-context-menu {
+  cursor: context-menu;
+}
+
+.cursor-help {
+  cursor: help;
+}
+
+.cursor-progress {
+  cursor: progress;
+}
+
+.cursor-cell {
+  cursor: cell;
+}
+
+.cursor-crosshair {
+  cursor: crosshair;
+}
+
+.cursor-text {
+  cursor: text;
+}
+
+.cursor-vertical-text {
+  cursor: vertical-text;
+}
+
+.cursor-alias {
+  cursor: alias;
+}
+
+.cursor-copy {
+  cursor: copy;
+}
+
+.cursor-no-drop {
+  cursor: no-drop;
+}
+
+.cursor-all-scroll {
+  cursor: all-scroll;
+}
+
+.cursor-col-resize {
+  cursor: col-resize;
+}
+
+.cursor-row-resize {
+  cursor: row-resize;
+}
+
+.cursor-n-resize {
+  cursor: n-resize;
+}
+
+.cursor-e-resize {
+  cursor: e-resize;
+}
+
+.cursor-s-resize {
+  cursor: s-resize;
+}
+
+.cursor-w-resize {
+  cursor: w-resize;
+}
+
+.cursor-ne-resize {
+  cursor: ne-resize;
+}
+
+.cursor-nw-resize {
+  cursor: nw-resize;
+}
+
+.cursor-se-resize {
+  cursor: se-resize;
+}
+
+.cursor-sw-resize {
+  cursor: sw-resize;
+}
+
+.cursor-ew-resize {
+  cursor: ew-resize;
+}
+
+.cursor-ns-resize {
+  cursor: ns-resize;
+}
+
+.cursor-nesw-resize {
+  cursor: nesw-resize;
+}
+
+.cursor-nwse-resize {
+  cursor: nwse-resize;
+}
+
+.cursor-zoom-in {
+  cursor: zoom-in;
+}
+
+.cursor-zoom-out {
+  cursor: zoom-out;
+}
+
+.cursor-grab {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.cursor-grabbing {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.blend-normal {
+  mix-blend-mode: normal;
+}
+
+.blend-multiply {
+  mix-blend-mode: multiply;
+}
+
+.blend-screen {
+  mix-blend-mode: screen;
+}
+
+.blend-overlay {
+  mix-blend-mode: overlay;
+}
+
+.blend-darken {
+  mix-blend-mode: darken;
+}
+
+.blend-lighten {
+  mix-blend-mode: lighten;
+}
+
+.blend-color-dodge {
+  mix-blend-mode: color-dodge;
+}
+
+.blend-color-burn {
+  mix-blend-mode: color-burn;
+}
+
+.blend-hard-light {
+  mix-blend-mode: hard-light;
+}
+
+.blend-soft-light {
+  mix-blend-mode: soft-light;
+}
+
+.blend-difference {
+  mix-blend-mode: difference;
+}
+
+.blend-exclusion {
+  mix-blend-mode: exclusion;
+}
+
+.blend-hue {
+  mix-blend-mode: hue;
+}
+
+.blend-saturation {
+  mix-blend-mode: saturation;
+}
+
+.blend-color {
+  mix-blend-mode: color;
+}
+
+.blend-luminosity {
+  mix-blend-mode: luminosity;
+}
+
+.bg-blend-normal {
+  background-blend-mode: normal;
+}
+
+.bg-blend-multiply {
+  background-blend-mode: multiply;
+}
+
+.bg-blend-screen {
+  background-blend-mode: screen;
+}
+
+.bg-blend-overlay {
+  background-blend-mode: overlay;
+}
+
+.bg-blend-darken {
+  background-blend-mode: darken;
+}
+
+.bg-blend-lighten {
+  background-blend-mode: lighten;
+}
+
+.bg-blend-color-dodge {
+  background-blend-mode: color-dodge;
+}
+
+.bg-blend-color-burn {
+  background-blend-mode: color-burn;
+}
+
+.bg-blend-hard-light {
+  background-blend-mode: hard-light;
+}
+
+.bg-blend-soft-light {
+  background-blend-mode: soft-light;
+}
+
+.bg-blend-difference {
+  background-blend-mode: difference;
+}
+
+.bg-blend-exclusion {
+  background-blend-mode: exclusion;
+}
+
+.bg-blend-hue {
+  background-blend-mode: hue;
+}
+
+.bg-blend-saturation {
+  background-blend-mode: saturation;
+}
+
+.bg-blend-color {
+  background-blend-mode: color;
+}
+
+.bg-blend-luminosity {
+  background-blend-mode: luminosity;
+}
+
+.isolate {
+  isolation: isolate;
+}
+
+.isolate-none {
+  isolation: auto;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;
@@ -24047,6 +24305,264 @@ button,
 
   .sm\:z-auto {
     z-index: auto;
+  }
+
+  .sm\:cursor-none {
+    cursor: none;
+  }
+
+  .sm\:cursor-context-menu {
+    cursor: context-menu;
+  }
+
+  .sm\:cursor-help {
+    cursor: help;
+  }
+
+  .sm\:cursor-progress {
+    cursor: progress;
+  }
+
+  .sm\:cursor-cell {
+    cursor: cell;
+  }
+
+  .sm\:cursor-crosshair {
+    cursor: crosshair;
+  }
+
+  .sm\:cursor-text {
+    cursor: text;
+  }
+
+  .sm\:cursor-vertical-text {
+    cursor: vertical-text;
+  }
+
+  .sm\:cursor-alias {
+    cursor: alias;
+  }
+
+  .sm\:cursor-copy {
+    cursor: copy;
+  }
+
+  .sm\:cursor-no-drop {
+    cursor: no-drop;
+  }
+
+  .sm\:cursor-all-scroll {
+    cursor: all-scroll;
+  }
+
+  .sm\:cursor-col-resize {
+    cursor: col-resize;
+  }
+
+  .sm\:cursor-row-resize {
+    cursor: row-resize;
+  }
+
+  .sm\:cursor-n-resize {
+    cursor: n-resize;
+  }
+
+  .sm\:cursor-e-resize {
+    cursor: e-resize;
+  }
+
+  .sm\:cursor-s-resize {
+    cursor: s-resize;
+  }
+
+  .sm\:cursor-w-resize {
+    cursor: w-resize;
+  }
+
+  .sm\:cursor-ne-resize {
+    cursor: ne-resize;
+  }
+
+  .sm\:cursor-nw-resize {
+    cursor: nw-resize;
+  }
+
+  .sm\:cursor-se-resize {
+    cursor: se-resize;
+  }
+
+  .sm\:cursor-sw-resize {
+    cursor: sw-resize;
+  }
+
+  .sm\:cursor-ew-resize {
+    cursor: ew-resize;
+  }
+
+  .sm\:cursor-ns-resize {
+    cursor: ns-resize;
+  }
+
+  .sm\:cursor-nesw-resize {
+    cursor: nesw-resize;
+  }
+
+  .sm\:cursor-nwse-resize {
+    cursor: nwse-resize;
+  }
+
+  .sm\:cursor-zoom-in {
+    cursor: zoom-in;
+  }
+
+  .sm\:cursor-zoom-out {
+    cursor: zoom-out;
+  }
+
+  .sm\:cursor-grab {
+    cursor: -webkit-grab;
+    cursor: grab;
+  }
+
+  .sm\:cursor-grabbing {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+  }
+
+  .sm\:blend-normal {
+    mix-blend-mode: normal;
+  }
+
+  .sm\:blend-multiply {
+    mix-blend-mode: multiply;
+  }
+
+  .sm\:blend-screen {
+    mix-blend-mode: screen;
+  }
+
+  .sm\:blend-overlay {
+    mix-blend-mode: overlay;
+  }
+
+  .sm\:blend-darken {
+    mix-blend-mode: darken;
+  }
+
+  .sm\:blend-lighten {
+    mix-blend-mode: lighten;
+  }
+
+  .sm\:blend-color-dodge {
+    mix-blend-mode: color-dodge;
+  }
+
+  .sm\:blend-color-burn {
+    mix-blend-mode: color-burn;
+  }
+
+  .sm\:blend-hard-light {
+    mix-blend-mode: hard-light;
+  }
+
+  .sm\:blend-soft-light {
+    mix-blend-mode: soft-light;
+  }
+
+  .sm\:blend-difference {
+    mix-blend-mode: difference;
+  }
+
+  .sm\:blend-exclusion {
+    mix-blend-mode: exclusion;
+  }
+
+  .sm\:blend-hue {
+    mix-blend-mode: hue;
+  }
+
+  .sm\:blend-saturation {
+    mix-blend-mode: saturation;
+  }
+
+  .sm\:blend-color {
+    mix-blend-mode: color;
+  }
+
+  .sm\:blend-luminosity {
+    mix-blend-mode: luminosity;
+  }
+
+  .sm\:bg-blend-normal {
+    background-blend-mode: normal;
+  }
+
+  .sm\:bg-blend-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .sm\:bg-blend-screen {
+    background-blend-mode: screen;
+  }
+
+  .sm\:bg-blend-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .sm\:bg-blend-darken {
+    background-blend-mode: darken;
+  }
+
+  .sm\:bg-blend-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .sm\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .sm\:bg-blend-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .sm\:bg-blend-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .sm\:bg-blend-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .sm\:bg-blend-difference {
+    background-blend-mode: difference;
+  }
+
+  .sm\:bg-blend-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .sm\:bg-blend-hue {
+    background-blend-mode: hue;
+  }
+
+  .sm\:bg-blend-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .sm\:bg-blend-color {
+    background-blend-mode: color;
+  }
+
+  .sm\:bg-blend-luminosity {
+    background-blend-mode: luminosity;
+  }
+
+  .sm\:isolate {
+    isolation: isolate;
+  }
+
+  .sm\:isolate-none {
+    isolation: auto;
   }
 }
 
@@ -35702,6 +36218,264 @@ button,
   .md\:z-auto {
     z-index: auto;
   }
+
+  .md\:cursor-none {
+    cursor: none;
+  }
+
+  .md\:cursor-context-menu {
+    cursor: context-menu;
+  }
+
+  .md\:cursor-help {
+    cursor: help;
+  }
+
+  .md\:cursor-progress {
+    cursor: progress;
+  }
+
+  .md\:cursor-cell {
+    cursor: cell;
+  }
+
+  .md\:cursor-crosshair {
+    cursor: crosshair;
+  }
+
+  .md\:cursor-text {
+    cursor: text;
+  }
+
+  .md\:cursor-vertical-text {
+    cursor: vertical-text;
+  }
+
+  .md\:cursor-alias {
+    cursor: alias;
+  }
+
+  .md\:cursor-copy {
+    cursor: copy;
+  }
+
+  .md\:cursor-no-drop {
+    cursor: no-drop;
+  }
+
+  .md\:cursor-all-scroll {
+    cursor: all-scroll;
+  }
+
+  .md\:cursor-col-resize {
+    cursor: col-resize;
+  }
+
+  .md\:cursor-row-resize {
+    cursor: row-resize;
+  }
+
+  .md\:cursor-n-resize {
+    cursor: n-resize;
+  }
+
+  .md\:cursor-e-resize {
+    cursor: e-resize;
+  }
+
+  .md\:cursor-s-resize {
+    cursor: s-resize;
+  }
+
+  .md\:cursor-w-resize {
+    cursor: w-resize;
+  }
+
+  .md\:cursor-ne-resize {
+    cursor: ne-resize;
+  }
+
+  .md\:cursor-nw-resize {
+    cursor: nw-resize;
+  }
+
+  .md\:cursor-se-resize {
+    cursor: se-resize;
+  }
+
+  .md\:cursor-sw-resize {
+    cursor: sw-resize;
+  }
+
+  .md\:cursor-ew-resize {
+    cursor: ew-resize;
+  }
+
+  .md\:cursor-ns-resize {
+    cursor: ns-resize;
+  }
+
+  .md\:cursor-nesw-resize {
+    cursor: nesw-resize;
+  }
+
+  .md\:cursor-nwse-resize {
+    cursor: nwse-resize;
+  }
+
+  .md\:cursor-zoom-in {
+    cursor: zoom-in;
+  }
+
+  .md\:cursor-zoom-out {
+    cursor: zoom-out;
+  }
+
+  .md\:cursor-grab {
+    cursor: -webkit-grab;
+    cursor: grab;
+  }
+
+  .md\:cursor-grabbing {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+  }
+
+  .md\:blend-normal {
+    mix-blend-mode: normal;
+  }
+
+  .md\:blend-multiply {
+    mix-blend-mode: multiply;
+  }
+
+  .md\:blend-screen {
+    mix-blend-mode: screen;
+  }
+
+  .md\:blend-overlay {
+    mix-blend-mode: overlay;
+  }
+
+  .md\:blend-darken {
+    mix-blend-mode: darken;
+  }
+
+  .md\:blend-lighten {
+    mix-blend-mode: lighten;
+  }
+
+  .md\:blend-color-dodge {
+    mix-blend-mode: color-dodge;
+  }
+
+  .md\:blend-color-burn {
+    mix-blend-mode: color-burn;
+  }
+
+  .md\:blend-hard-light {
+    mix-blend-mode: hard-light;
+  }
+
+  .md\:blend-soft-light {
+    mix-blend-mode: soft-light;
+  }
+
+  .md\:blend-difference {
+    mix-blend-mode: difference;
+  }
+
+  .md\:blend-exclusion {
+    mix-blend-mode: exclusion;
+  }
+
+  .md\:blend-hue {
+    mix-blend-mode: hue;
+  }
+
+  .md\:blend-saturation {
+    mix-blend-mode: saturation;
+  }
+
+  .md\:blend-color {
+    mix-blend-mode: color;
+  }
+
+  .md\:blend-luminosity {
+    mix-blend-mode: luminosity;
+  }
+
+  .md\:bg-blend-normal {
+    background-blend-mode: normal;
+  }
+
+  .md\:bg-blend-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .md\:bg-blend-screen {
+    background-blend-mode: screen;
+  }
+
+  .md\:bg-blend-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .md\:bg-blend-darken {
+    background-blend-mode: darken;
+  }
+
+  .md\:bg-blend-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .md\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .md\:bg-blend-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .md\:bg-blend-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .md\:bg-blend-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .md\:bg-blend-difference {
+    background-blend-mode: difference;
+  }
+
+  .md\:bg-blend-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .md\:bg-blend-hue {
+    background-blend-mode: hue;
+  }
+
+  .md\:bg-blend-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .md\:bg-blend-color {
+    background-blend-mode: color;
+  }
+
+  .md\:bg-blend-luminosity {
+    background-blend-mode: luminosity;
+  }
+
+  .md\:isolate {
+    isolation: isolate;
+  }
+
+  .md\:isolate-none {
+    isolation: auto;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -47355,6 +48129,264 @@ button,
 
   .lg\:z-auto {
     z-index: auto;
+  }
+
+  .lg\:cursor-none {
+    cursor: none;
+  }
+
+  .lg\:cursor-context-menu {
+    cursor: context-menu;
+  }
+
+  .lg\:cursor-help {
+    cursor: help;
+  }
+
+  .lg\:cursor-progress {
+    cursor: progress;
+  }
+
+  .lg\:cursor-cell {
+    cursor: cell;
+  }
+
+  .lg\:cursor-crosshair {
+    cursor: crosshair;
+  }
+
+  .lg\:cursor-text {
+    cursor: text;
+  }
+
+  .lg\:cursor-vertical-text {
+    cursor: vertical-text;
+  }
+
+  .lg\:cursor-alias {
+    cursor: alias;
+  }
+
+  .lg\:cursor-copy {
+    cursor: copy;
+  }
+
+  .lg\:cursor-no-drop {
+    cursor: no-drop;
+  }
+
+  .lg\:cursor-all-scroll {
+    cursor: all-scroll;
+  }
+
+  .lg\:cursor-col-resize {
+    cursor: col-resize;
+  }
+
+  .lg\:cursor-row-resize {
+    cursor: row-resize;
+  }
+
+  .lg\:cursor-n-resize {
+    cursor: n-resize;
+  }
+
+  .lg\:cursor-e-resize {
+    cursor: e-resize;
+  }
+
+  .lg\:cursor-s-resize {
+    cursor: s-resize;
+  }
+
+  .lg\:cursor-w-resize {
+    cursor: w-resize;
+  }
+
+  .lg\:cursor-ne-resize {
+    cursor: ne-resize;
+  }
+
+  .lg\:cursor-nw-resize {
+    cursor: nw-resize;
+  }
+
+  .lg\:cursor-se-resize {
+    cursor: se-resize;
+  }
+
+  .lg\:cursor-sw-resize {
+    cursor: sw-resize;
+  }
+
+  .lg\:cursor-ew-resize {
+    cursor: ew-resize;
+  }
+
+  .lg\:cursor-ns-resize {
+    cursor: ns-resize;
+  }
+
+  .lg\:cursor-nesw-resize {
+    cursor: nesw-resize;
+  }
+
+  .lg\:cursor-nwse-resize {
+    cursor: nwse-resize;
+  }
+
+  .lg\:cursor-zoom-in {
+    cursor: zoom-in;
+  }
+
+  .lg\:cursor-zoom-out {
+    cursor: zoom-out;
+  }
+
+  .lg\:cursor-grab {
+    cursor: -webkit-grab;
+    cursor: grab;
+  }
+
+  .lg\:cursor-grabbing {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+  }
+
+  .lg\:blend-normal {
+    mix-blend-mode: normal;
+  }
+
+  .lg\:blend-multiply {
+    mix-blend-mode: multiply;
+  }
+
+  .lg\:blend-screen {
+    mix-blend-mode: screen;
+  }
+
+  .lg\:blend-overlay {
+    mix-blend-mode: overlay;
+  }
+
+  .lg\:blend-darken {
+    mix-blend-mode: darken;
+  }
+
+  .lg\:blend-lighten {
+    mix-blend-mode: lighten;
+  }
+
+  .lg\:blend-color-dodge {
+    mix-blend-mode: color-dodge;
+  }
+
+  .lg\:blend-color-burn {
+    mix-blend-mode: color-burn;
+  }
+
+  .lg\:blend-hard-light {
+    mix-blend-mode: hard-light;
+  }
+
+  .lg\:blend-soft-light {
+    mix-blend-mode: soft-light;
+  }
+
+  .lg\:blend-difference {
+    mix-blend-mode: difference;
+  }
+
+  .lg\:blend-exclusion {
+    mix-blend-mode: exclusion;
+  }
+
+  .lg\:blend-hue {
+    mix-blend-mode: hue;
+  }
+
+  .lg\:blend-saturation {
+    mix-blend-mode: saturation;
+  }
+
+  .lg\:blend-color {
+    mix-blend-mode: color;
+  }
+
+  .lg\:blend-luminosity {
+    mix-blend-mode: luminosity;
+  }
+
+  .lg\:bg-blend-normal {
+    background-blend-mode: normal;
+  }
+
+  .lg\:bg-blend-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .lg\:bg-blend-screen {
+    background-blend-mode: screen;
+  }
+
+  .lg\:bg-blend-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .lg\:bg-blend-darken {
+    background-blend-mode: darken;
+  }
+
+  .lg\:bg-blend-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .lg\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .lg\:bg-blend-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .lg\:bg-blend-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .lg\:bg-blend-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .lg\:bg-blend-difference {
+    background-blend-mode: difference;
+  }
+
+  .lg\:bg-blend-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .lg\:bg-blend-hue {
+    background-blend-mode: hue;
+  }
+
+  .lg\:bg-blend-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .lg\:bg-blend-color {
+    background-blend-mode: color;
+  }
+
+  .lg\:bg-blend-luminosity {
+    background-blend-mode: luminosity;
+  }
+
+  .lg\:isolate {
+    isolation: isolate;
+  }
+
+  .lg\:isolate-none {
+    isolation: auto;
   }
 }
 
@@ -59010,6 +60042,264 @@ button,
   .xl\:z-auto {
     z-index: auto;
   }
+
+  .xl\:cursor-none {
+    cursor: none;
+  }
+
+  .xl\:cursor-context-menu {
+    cursor: context-menu;
+  }
+
+  .xl\:cursor-help {
+    cursor: help;
+  }
+
+  .xl\:cursor-progress {
+    cursor: progress;
+  }
+
+  .xl\:cursor-cell {
+    cursor: cell;
+  }
+
+  .xl\:cursor-crosshair {
+    cursor: crosshair;
+  }
+
+  .xl\:cursor-text {
+    cursor: text;
+  }
+
+  .xl\:cursor-vertical-text {
+    cursor: vertical-text;
+  }
+
+  .xl\:cursor-alias {
+    cursor: alias;
+  }
+
+  .xl\:cursor-copy {
+    cursor: copy;
+  }
+
+  .xl\:cursor-no-drop {
+    cursor: no-drop;
+  }
+
+  .xl\:cursor-all-scroll {
+    cursor: all-scroll;
+  }
+
+  .xl\:cursor-col-resize {
+    cursor: col-resize;
+  }
+
+  .xl\:cursor-row-resize {
+    cursor: row-resize;
+  }
+
+  .xl\:cursor-n-resize {
+    cursor: n-resize;
+  }
+
+  .xl\:cursor-e-resize {
+    cursor: e-resize;
+  }
+
+  .xl\:cursor-s-resize {
+    cursor: s-resize;
+  }
+
+  .xl\:cursor-w-resize {
+    cursor: w-resize;
+  }
+
+  .xl\:cursor-ne-resize {
+    cursor: ne-resize;
+  }
+
+  .xl\:cursor-nw-resize {
+    cursor: nw-resize;
+  }
+
+  .xl\:cursor-se-resize {
+    cursor: se-resize;
+  }
+
+  .xl\:cursor-sw-resize {
+    cursor: sw-resize;
+  }
+
+  .xl\:cursor-ew-resize {
+    cursor: ew-resize;
+  }
+
+  .xl\:cursor-ns-resize {
+    cursor: ns-resize;
+  }
+
+  .xl\:cursor-nesw-resize {
+    cursor: nesw-resize;
+  }
+
+  .xl\:cursor-nwse-resize {
+    cursor: nwse-resize;
+  }
+
+  .xl\:cursor-zoom-in {
+    cursor: zoom-in;
+  }
+
+  .xl\:cursor-zoom-out {
+    cursor: zoom-out;
+  }
+
+  .xl\:cursor-grab {
+    cursor: -webkit-grab;
+    cursor: grab;
+  }
+
+  .xl\:cursor-grabbing {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+  }
+
+  .xl\:blend-normal {
+    mix-blend-mode: normal;
+  }
+
+  .xl\:blend-multiply {
+    mix-blend-mode: multiply;
+  }
+
+  .xl\:blend-screen {
+    mix-blend-mode: screen;
+  }
+
+  .xl\:blend-overlay {
+    mix-blend-mode: overlay;
+  }
+
+  .xl\:blend-darken {
+    mix-blend-mode: darken;
+  }
+
+  .xl\:blend-lighten {
+    mix-blend-mode: lighten;
+  }
+
+  .xl\:blend-color-dodge {
+    mix-blend-mode: color-dodge;
+  }
+
+  .xl\:blend-color-burn {
+    mix-blend-mode: color-burn;
+  }
+
+  .xl\:blend-hard-light {
+    mix-blend-mode: hard-light;
+  }
+
+  .xl\:blend-soft-light {
+    mix-blend-mode: soft-light;
+  }
+
+  .xl\:blend-difference {
+    mix-blend-mode: difference;
+  }
+
+  .xl\:blend-exclusion {
+    mix-blend-mode: exclusion;
+  }
+
+  .xl\:blend-hue {
+    mix-blend-mode: hue;
+  }
+
+  .xl\:blend-saturation {
+    mix-blend-mode: saturation;
+  }
+
+  .xl\:blend-color {
+    mix-blend-mode: color;
+  }
+
+  .xl\:blend-luminosity {
+    mix-blend-mode: luminosity;
+  }
+
+  .xl\:bg-blend-normal {
+    background-blend-mode: normal;
+  }
+
+  .xl\:bg-blend-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .xl\:bg-blend-screen {
+    background-blend-mode: screen;
+  }
+
+  .xl\:bg-blend-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .xl\:bg-blend-darken {
+    background-blend-mode: darken;
+  }
+
+  .xl\:bg-blend-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .xl\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .xl\:bg-blend-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .xl\:bg-blend-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .xl\:bg-blend-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .xl\:bg-blend-difference {
+    background-blend-mode: difference;
+  }
+
+  .xl\:bg-blend-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .xl\:bg-blend-hue {
+    background-blend-mode: hue;
+  }
+
+  .xl\:bg-blend-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .xl\:bg-blend-color {
+    background-blend-mode: color;
+  }
+
+  .xl\:bg-blend-luminosity {
+    background-blend-mode: luminosity;
+  }
+
+  .xl\:isolate {
+    isolation: isolate;
+  }
+
+  .xl\:isolate-none {
+    isolation: auto;
+  }
 }
 
 @media (min-width: 1408px) {
@@ -70663,5 +71953,263 @@ button,
 
   .xxl\:z-auto {
     z-index: auto;
+  }
+
+  .xxl\:cursor-none {
+    cursor: none;
+  }
+
+  .xxl\:cursor-context-menu {
+    cursor: context-menu;
+  }
+
+  .xxl\:cursor-help {
+    cursor: help;
+  }
+
+  .xxl\:cursor-progress {
+    cursor: progress;
+  }
+
+  .xxl\:cursor-cell {
+    cursor: cell;
+  }
+
+  .xxl\:cursor-crosshair {
+    cursor: crosshair;
+  }
+
+  .xxl\:cursor-text {
+    cursor: text;
+  }
+
+  .xxl\:cursor-vertical-text {
+    cursor: vertical-text;
+  }
+
+  .xxl\:cursor-alias {
+    cursor: alias;
+  }
+
+  .xxl\:cursor-copy {
+    cursor: copy;
+  }
+
+  .xxl\:cursor-no-drop {
+    cursor: no-drop;
+  }
+
+  .xxl\:cursor-all-scroll {
+    cursor: all-scroll;
+  }
+
+  .xxl\:cursor-col-resize {
+    cursor: col-resize;
+  }
+
+  .xxl\:cursor-row-resize {
+    cursor: row-resize;
+  }
+
+  .xxl\:cursor-n-resize {
+    cursor: n-resize;
+  }
+
+  .xxl\:cursor-e-resize {
+    cursor: e-resize;
+  }
+
+  .xxl\:cursor-s-resize {
+    cursor: s-resize;
+  }
+
+  .xxl\:cursor-w-resize {
+    cursor: w-resize;
+  }
+
+  .xxl\:cursor-ne-resize {
+    cursor: ne-resize;
+  }
+
+  .xxl\:cursor-nw-resize {
+    cursor: nw-resize;
+  }
+
+  .xxl\:cursor-se-resize {
+    cursor: se-resize;
+  }
+
+  .xxl\:cursor-sw-resize {
+    cursor: sw-resize;
+  }
+
+  .xxl\:cursor-ew-resize {
+    cursor: ew-resize;
+  }
+
+  .xxl\:cursor-ns-resize {
+    cursor: ns-resize;
+  }
+
+  .xxl\:cursor-nesw-resize {
+    cursor: nesw-resize;
+  }
+
+  .xxl\:cursor-nwse-resize {
+    cursor: nwse-resize;
+  }
+
+  .xxl\:cursor-zoom-in {
+    cursor: zoom-in;
+  }
+
+  .xxl\:cursor-zoom-out {
+    cursor: zoom-out;
+  }
+
+  .xxl\:cursor-grab {
+    cursor: -webkit-grab;
+    cursor: grab;
+  }
+
+  .xxl\:cursor-grabbing {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+  }
+
+  .xxl\:blend-normal {
+    mix-blend-mode: normal;
+  }
+
+  .xxl\:blend-multiply {
+    mix-blend-mode: multiply;
+  }
+
+  .xxl\:blend-screen {
+    mix-blend-mode: screen;
+  }
+
+  .xxl\:blend-overlay {
+    mix-blend-mode: overlay;
+  }
+
+  .xxl\:blend-darken {
+    mix-blend-mode: darken;
+  }
+
+  .xxl\:blend-lighten {
+    mix-blend-mode: lighten;
+  }
+
+  .xxl\:blend-color-dodge {
+    mix-blend-mode: color-dodge;
+  }
+
+  .xxl\:blend-color-burn {
+    mix-blend-mode: color-burn;
+  }
+
+  .xxl\:blend-hard-light {
+    mix-blend-mode: hard-light;
+  }
+
+  .xxl\:blend-soft-light {
+    mix-blend-mode: soft-light;
+  }
+
+  .xxl\:blend-difference {
+    mix-blend-mode: difference;
+  }
+
+  .xxl\:blend-exclusion {
+    mix-blend-mode: exclusion;
+  }
+
+  .xxl\:blend-hue {
+    mix-blend-mode: hue;
+  }
+
+  .xxl\:blend-saturation {
+    mix-blend-mode: saturation;
+  }
+
+  .xxl\:blend-color {
+    mix-blend-mode: color;
+  }
+
+  .xxl\:blend-luminosity {
+    mix-blend-mode: luminosity;
+  }
+
+  .xxl\:bg-blend-normal {
+    background-blend-mode: normal;
+  }
+
+  .xxl\:bg-blend-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .xxl\:bg-blend-screen {
+    background-blend-mode: screen;
+  }
+
+  .xxl\:bg-blend-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .xxl\:bg-blend-darken {
+    background-blend-mode: darken;
+  }
+
+  .xxl\:bg-blend-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .xxl\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .xxl\:bg-blend-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .xxl\:bg-blend-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .xxl\:bg-blend-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .xxl\:bg-blend-difference {
+    background-blend-mode: difference;
+  }
+
+  .xxl\:bg-blend-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .xxl\:bg-blend-hue {
+    background-blend-mode: hue;
+  }
+
+  .xxl\:bg-blend-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .xxl\:bg-blend-color {
+    background-blend-mode: color;
+  }
+
+  .xxl\:bg-blend-luminosity {
+    background-blend-mode: luminosity;
+  }
+
+  .xxl\:isolate {
+    isolation: isolate;
+  }
+
+  .xxl\:isolate-none {
+    isolation: auto;
   }
 }

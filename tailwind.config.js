@@ -1574,7 +1574,9 @@ module.exports = {
       // center: true,
       // padding: '1rem',
     }),
-    require("glhd-tailwindcss-transitions")()
+    require("glhd-tailwindcss-transitions")(),
+    require("tailwindcss-cursor-extended")(["responsive"]),
+    require("tailwindcss-blend-mode")(["responsive"])
   ],
 
   /*
