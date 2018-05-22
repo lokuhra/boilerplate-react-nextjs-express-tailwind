@@ -2,7 +2,7 @@
   "name": "boilerplate-react-nextjs-express-tailwind",
   "version": "1.0.0",
   "scripts": {
-    "b:grid-kiss":"postcss styles/grid-kiss/grid.css --output static/styles/grid.css --use postcss-grid-kiss",
+    "b:grid-kiss": "postcss styles/grid-kiss/grid.css --output static/styles/grid.css --use postcss-grid-kiss",
     "b:css": "postcss styles/tailwind/index.css -o static/styles/tailwind.css",
     "w:css": "postcss styles/tailwind/index.css -o static/styles/tailwind.css -w",
     "dev": "next & npm run w:css",
@@ -14,6 +14,7 @@
     "express": "^4.16.3",
     "glhd-tailwindcss-transitions": "^0.3.0",
     "next": "^6.0.3",
+    "postcss-all-link-colors": "^2.0.0",
     "postcss-cli": "^5.0.0",
     "prettier": "^1.12.1",
     "react": "^16.3.2",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "cssnano": "^3.10.0",
     "postcss-grid-kiss": "^1.4.2",
+    "postcss-responsive-font": "^1.0.3",
     "tailwindcss-blend-mode": "^0.1.0",
     "tailwindcss-cursor-extended": "^0.1.0"
   }

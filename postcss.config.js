@@ -4,6 +4,8 @@ module.exports = {
     plugins: [
         tailwindcss('./tailwind.config.js'),
         require('autoprefixer'),
-        require('cssnano')({preset: 'default',}),
+        //require('cssnano')({preset: 'default',}),
+	require('postcss-responsive-font'),
+	require('postcss-all-link-colors')
     ],
 };
